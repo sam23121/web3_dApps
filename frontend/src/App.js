@@ -1,9 +1,11 @@
-import React from 'react';
+import Home from './components/home';
 
-const App = () => {
-    return (
-        <h1>hello</h1>
-    );
+function App() {
+  return (
+    <div>
+     <Home/>
+    </div>
+  );
 }
 
 export default App;
