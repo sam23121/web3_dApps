@@ -1,7 +1,7 @@
 /*global AlgoSigner*/
 import React, {useRef, useState} from 'react';
 import {Container,Row, Col, Button} from 'react-bootstrap'
-import logo from '../assets/images/AlgoVote.svg'
+import logo from '../assets/images/10_acad.svg'
 import { CONSTANTS } from './Constants';
 import algosdk from'algosdk';
 import MessageAlert from './Alert';
@@ -79,7 +79,7 @@ const Optin = async (sender, index) => {
       <Container style={{marginTop: '24px'}}>
         <Row>
           <Col>
-            <img src={logo}  alt='vote'/>
+            <img src={logo}  alt='10_acad' width="100" height="100"/>
           </Col>
           <Col>
             <div>
